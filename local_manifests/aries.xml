@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="liuxdev/android_device_xiaomi_aries" path="device/xiaomi/aries" remote="github" revision="cm-11.0" />
+  <project name="liuxdev/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-11.0" />
+  <project name="liuxdev/android_kernel_xiaomi_aries" path="kernel/xiaomi/aries" remote="github" revision="cm-11.0" />
+  <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-11.0" />
+  <project name="mlehtima/backports-bluetooth" path="external/backports-bluetooth" revision="master" />
+</manifest>
+

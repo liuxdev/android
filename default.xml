@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="aosp"
+           fetch="https://aosp.tuna.tsinghua.edu.cn"
+           review="android-review.googlesource.com" />
+  <remote  name="github"
+           fetch=".."
+           review="review.cyanogenmod.org" />
+
+  <default revision="refs/tags/cm-11.0-XNPH44S-bacon-5fa8c79c0b"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
+
+  <project name="CyanogenMod/android_abi_cpp" path="abi/cpp"/>
+  <project name="CyanogenMod/android_bootable_recovery" path="bootable/recovery"/>
+  <project name="CyanogenMod/android_bootable_recovery-cm" path="bootable/recovery-cm"/>
+  <project name="CyanogenMod/android_device_common" path="device/common"/>
+  <project name="CyanogenMod/android_device_generic_common" path="device/generic/common"/>
+  <project name="CyanogenMod/android_external_bison" path="external/bison"/>
+  <project name="CyanogenMod/android_external_bouncycastle" path="external/bouncycastle"/>
+  <project name="CyanogenMod/android_external_bzip2" path="external/bzip2"/>
+  <project name="CyanogenMod/android_external_clang" path="external/clang"/>
+  <project name="CyanogenMod/android_external_compiler-rt" path="external/compiler-rt"/>
+  <project name="CyanogenMod/android_external_e2fsprogs" path="external/e2fsprogs"/>
+  <project name="CyanogenMod/android_external_expat" path="external/expat"/>
+  <project name="CyanogenMod/android_external_flac" path="external/flac"/>
+  <project name="CyanogenMod/android_external_freetype" path="external/freetype"/>
+  <project name="CyanogenMod/android_external_gcc-demangle" path="external/gcc-demangle"/>
+  <project name="CyanogenMod/android_external_genext2fs" path="external/genext2fs"/>
+  <project name="CyanogenMod/android_external_giflib" path="external/giflib"/>
+  <project name="CyanogenMod/android_external_harfbuzz" path="external/harfbuzz"/>
+  <project name="CyanogenMod/android_external_icu4c" path="external/icu4c"/>
+  <project name="CyanogenMod/android_external_jpeg" path="external/jpeg"/>
+  <project name="CyanogenMod/android_external_junit" path="external/junit"/>
+  <project name="CyanogenMod/android_external_kernel-headers" path="external/kernel-headers"/>
+  <project name="CyanogenMod/android_external_liblzf" path="external/liblzf"/>
+  <project name="CyanogenMod/android_external_libnfc-nxp" path="external/libnfc-nxp"/>
+  <project name="CyanogenMod/android_external_libogg" path="external/libogg"/>
+  <project name="CyanogenMod/android_external_libphonenumber" path="external/libphonenumber"/>
+  <project name="CyanogenMod/android_external_libpng" path="external/libpng"/>
+  <project name="CyanogenMod/android_external_libselinux" path="external/libselinux"/>
+  <project name="CyanogenMod/android_external_libsepol" path="external/libsepol"/>
+  <project name="CyanogenMod/android_external_libvpx" path="external/libvpx"/>
+  <project name="CyanogenMod/android_external_llvm" path="external/llvm"/>
+  <project name="CyanogenMod/android_external_openssl" path="external/openssl"/>
+  <project name="CyanogenMod/android_external_protobuf" path="external/protobuf"/>
+  <project name="CyanogenMod/android_external_qemu" path="external/qemu"/>
+  <project name="CyanogenMod/android_external_safe-iop" path="external/safe-iop"/>
+  <project name="CyanogenMod/android_external_skia" path="external/skia"/>
+  <project name="CyanogenMod/android_external_sonivox" path="external/sonivox"/>
+  <project name="CyanogenMod/android_external_speex" path="external/speex"/>
+  <project name="CyanogenMod/android_external_stlport" path="external/stlport"/>
+  <project name="CyanogenMod/android_external_tremolo" path="external/tremolo"/>
+  <project name="CyanogenMod/android_external_webp" path="external/webp"/>
+  <project name="CyanogenMod/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8"/>
+  <project name="CyanogenMod/android_external_yaffs2" path="external/yaffs2"/>
+  <project name="CyanogenMod/android_external_zlib" path="external/zlib"/>
+  <project name="CyanogenMod/android_frameworks_av" path="frameworks/av"/>
+  <project name="mer-hybris/android_frameworks_base" path="frameworks/base" revision="hybris-11.0-44S"/>
+  <project name="CyanogenMod/android_frameworks_opt_emoji" path="frameworks/opt/emoji"/>
+  <project name="CyanogenMod/android_hardware_akm" path="hardware/akm"/>
+  <project name="CyanogenMod/android_hardware_broadcom_libbt" path="hardware/broadcom/libbt"/>
+  <project name="CyanogenMod/android_hardware_broadcom_wlan" path="hardware/broadcom/wlan"/>
+  <project name="CyanogenMod/android_hardware_cm" path="hardware/cm"/>
+  <project name="CyanogenMod/android_hardware_invensense" path="hardware/invensense"/>
+  <project name="CyanogenMod/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy"/>
+  <project name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio"/>
+  <project name="CyanogenMod/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf"/>
+  <project name="CyanogenMod/android_hardware_qcom_bt" path="hardware/qcom/bt"/>
+  <project name="CyanogenMod/android_hardware_qcom_camera" path="hardware/qcom/camera"/>
+  <project name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display"/>
+  <project name="CyanogenMod/android_hardware_qcom_gps" path="hardware/qcom/gps"/>
+  <project name="CyanogenMod/android_hardware_qcom_keymaster" path="hardware/qcom/keymaster"/>
+  <project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media"/>
+  <project name="CyanogenMod/android_hardware_qcom_media-caf" path="hardware/qcom/media-caf"/>
+  <project name="CyanogenMod/android_hardware_qcom_msm8960" path="hardware/qcom/msm8960"/>
+  <project name="CyanogenMod/android_hardware_qcom_msm8x74" path="hardware/qcom/msm8x74"/>
+  <project name="CyanogenMod/android_hardware_qcom_power" path="hardware/qcom/power"/>
+  <project name="CyanogenMod/android_hardware_qcom_sensors" path="hardware/qcom/sensors"/>
+  <project name="CyanogenMod/android_hardware_qcom_wlan" path="hardware/qcom/wlan"/>
+  <project name="CyanogenMod/android_hardware_ril" path="hardware/ril"/>
+  <project name="CyanogenMod/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5"/>
+  <project name="CyanogenMod/android_hardware_ti_omap3" path="hardware/ti/omap3"/>
+  <project name="CyanogenMod/android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx"/>
+  <project name="CyanogenMod/android_hardware_ti_wlan" path="hardware/ti/wlan"/>
+  <project name="CyanogenMod/android_hardware_ti_wpan" path="hardware/ti/wpan"/>
+  <project name="CyanogenMod/android_libcore" path="libcore"/>
+  <project name="CyanogenMod/android_libnativehelper" path="libnativehelper"/>
+  <project name="CyanogenMod/android_prebuilts_misc" path="prebuilts/misc"/>
+  <project name="CyanogenMod/android_system_extras" path="system/extras"/>
+  <project name="CyanogenMod/android_system_media" path="system/media"/>
+  <project name="CyanogenMod/android_system_netd" path="system/netd"/>
+  <project name="CyanogenMod/android_vendor_cm" path="vendor/cm"/>
+  <project name="mer-hybris/android_bionic" path="bionic" revision="hybris-11.0-44S"/>
+  <project name="mer-hybris/android_build" path="build" revision="hybris-11.0-44S">
+    <copyfile dest="Makefile" src="core/root.mk"/>
+  </project>
+  <project name="mer-hybris/android_external_busybox" path="external/busybox" revision="hybris-11.0"/>
+  <project name="mer-hybris/android_frameworks_native" path="frameworks/native" revision="hybris-11.0-44S"/>
+  <project name="mer-hybris/android_hardware_libhardware" path="hardware/libhardware" revision="hybris-11.0-44S"/>
+  <project name="mer-hybris/android_hardware_qcom_display-caf" path="hardware/qcom/display-caf" revision="hybris-11.0-44S"/>
+  <project name="mer-hybris/android_system_core" path="system/core" revision="hybris-11.0-44S"/>
+  <project name="mer-hybris/hybris-boot" path="hybris/hybris-boot" revision="master"/>
+  <project name="mer-hybris/mer-kernel-check" path="hybris/mer-kernel-check" revision="master"/>
+  <project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" remote="aosp" revision="refs/tags/android-4.4.2_r2"/>
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" remote="aosp" revision="refs/tags/android-4.4.2_r2"/>
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" remote="aosp" revision="refs/tags/android-4.4.2_r2"/>
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" remote="aosp" revision="refs/tags/android-4.4.2_r2"/>
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" remote="aosp" revision="refs/tags/android-4.4.2_r2"/>
+  <project name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" remote="aosp" revision="refs/tags/android-4.4.2_r2"/>
+  <project name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" remote="aosp" revision="refs/tags/android-4.4.2_r2"/>
+  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" remote="aosp" revision="refs/tags/android-4.4.2_r2"/>
+  <project name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" remote="aosp" revision="refs/tags/android-4.4.2_r2"/>
+  <project name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" remote="aosp" revision="refs/tags/android-4.4.2_r2"/>
+  <project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" remote="aosp" revision="refs/tags/android-4.4.2_r2"/>
+  <project name="platform/prebuilts/ndk" path="prebuilts/ndk" remote="aosp" revision="refs/tags/android-4.4.2_r2"/>
+  <project name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.4.2_r2"/>
+  <project name="platform/prebuilts/tools" path="prebuilts/tools" remote="aosp" revision="refs/tags/android-4.4.2_r2"/>
+  <project name="sailfishos/droidmedia" path="external/droidmedia" revision="master"/>
+</manifest>
